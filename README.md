@@ -5,11 +5,11 @@ Jekyll implementation of the Inter/sections site
 
 1. Clone it locally. 
 2. Make sure Jekyll and Bundler are installed.
-Jekyll: $ gem install jekyll
-Bundler: $ gem install bundler
+Jekyll: `$ gem install jekyll`
+Bundler: `$ gem install bundler`
 3. Navigate to the root of the repo.
 4. Type this:
-$ jekyll serve
+`$ jekyll serve`
 
 Watch the command line as it compiles the site and starts the server.
 This will start the site at localhost:4000 when it's ready.
@@ -20,12 +20,12 @@ This will start the site at localhost:4000 when it's ready.
 
 Each link across the top has a partner html file in the root of the repo. These are currently:
 
-index.html
+`index.html
 exhibition.html
 syposium.html
 events.html
 contact.html
-where-and-when.html
+where-and-when.html`
 
 These are the pages that are served when each of the links at the top are clicked.
 
@@ -44,13 +44,13 @@ Nav - This is the navigation links across the top.
 
 You can make new data structures for whatever you want. To use them, you will probably want to loop over every item in the file, which you do like this:
 
-{% for member in site.data.members %}
+`{% for member in site.data.members %}`
 
 This tells Jekyll "Inside the _data file at the root of the site, there's a file called members. Go into that, and look at each item (which I'll refer to as 'member')."
 
 Then, you can manipulate data inside each item, for example by grabbing their picture:
 
-<img src="{{member.avatar}}">
+`<img src="{{member.avatar}}">`
 
 Notice that you usually have to put the quote marks around the info yourself to make HTML happy.
 
@@ -62,7 +62,7 @@ Includes are little slices of HTML that you can swap in and out of your layout. 
 
 In an html document, you can type this to bring in the content of an include file:
 
-{% include name-of-the-include-here.html %}
+`{% include name-of-the-include-here.html %}`
 
 When it sees the command *include*, Jekyll goes to that file and tries to find the partial.
 
