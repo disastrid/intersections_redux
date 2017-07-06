@@ -49,3 +49,5 @@
   @import "foundation/components/type";
   @import "foundation/components/offcanvas";
   @import "foundation/components/visibility";
+  // This is the stylesheet for overriding established CSS elements:
+  @import "foundation/components/custom-intersections";

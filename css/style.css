@@ -3244,7 +3244,8 @@ body {
   width: 66%;
   margin: 0 auto;
   height: 2px;
-  background: #F9CE06;
+  // CUSTOM: Got rid of the yellow underline
+  // background: #F9CE06;
   display: block;
 }
 
