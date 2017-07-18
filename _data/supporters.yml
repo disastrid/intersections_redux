@@ -1,10 +1,10 @@
-- image: images/@stock/client-1.png
-  link: http://qmul.ac.uk
-- image: images/@stock/client-2.png
-  link: http://c4dm.eecs.qmul.ac.uk
-- image: images/@stock/client-3.png
+- image: images/supporters/mat_t.png
   link: http://www.mat.qmul.ac.uk
-- image: images/@stock/client-4.png
-  link: http://epsrc.rc.uk
-- image: images/@stock/client-5.png
-- image: images/@stock/client-6.png
+- image: images/supporters/qmul_t.png
+  link: http://qmul.ac.uk
+- image: images/supporters/epsrc_t.png
+  link: http://epsrc.gov.uk
+- image: images/supporters/den_t.png
+  link: http://den.epsrc.org
+- image: images/supporters/ahrc_t.png
+  link: http://ahrc.co.uk
