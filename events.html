@@ -1,0 +1,124 @@
+---
+layout: default
+title: Portfolio
+section_id: portfolio
+works:
+  - image: images/@stock/work-1.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: family
+    desc: Design &amp; Development
+  - image: images/@stock/work-2.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: security-and-privacy
+    desc: Design &amp; Development
+  - image: images/@stock/work-3.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: family
+    desc: Design &amp; Development
+  - image: images/@stock/work-4.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: talks
+    desc: Design &amp; Development
+  - image: images/@stock/work-5.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: art family
+    desc: Design &amp; Development
+  - image: images/@stock/work-6.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: talks
+    desc: Design &amp; Development
+  - image: images/@stock/work-7.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: art
+    desc: Design &amp; Development
+  - image: images/@stock/work-8.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: ethics
+    desc: Design &amp; Development
+  - image: images/@stock/work-1.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: ethics
+    desc: Design &amp; Development
+  - image: images/@stock/work-2.jpg
+    title: Beautiful Girl
+    link_to: portfolio-item.html
+    klass: talks
+    desc: Design &amp; Development
+  
+---
+
+
+<div class='full parallax' style='background-image: url(images/@stock/portfolio-header-bg.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Events" tagline="What's going on" color="#fff" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+
+<div class='full'>
+  <div class='row'>
+    <div class='mod modGallery'>
+      <div class='gallery-nav'>
+        <ul>
+          <li class='current'>
+            <a data-cat='all' href='#'>All</a>
+          </li>
+          <li>
+            <a data-cat='security-and-privacy' href='#'>Security and Privacy</a>
+          </li>
+          <li>
+            <a data-cat='family' href='#'>Family Events</a>
+          </li>
+          <li>
+            <a data-cat='art' href='#'>Art</a>
+          </li>
+          <li>
+            <a data-cat='ethics' href='#'>Ethics</a>
+          </li>
+          <li>
+            <a data-cat='talks' href='#'>Talks</a>
+          </li>
+        </ul>
+      </div>
+
+      <ul class='gallery large-block-grid-4 medium-block-grid-3 small-block-grid-2'>
+
+        {% for work in page.works %}
+          <li class="{{ work.klass }}">
+            <a href='{{ work.link_to }}'>
+              <img alt="" src="{{ work.image }}" />
+              <div class='overlay'>
+                <div class='thumb-info'>
+                  <h3>{{ work.title }}</h3>
+                  <p>{{ work.desc }}</p>
+                </div>
+                <div class='event-class' style="height: 10%; background-color: green">
+                  <h3>Family</h3>
+                </div>
+                <div class='event-class' style="height: 10%; background-color: red">
+                  <h3>Art</h3>
+                </div>
+              </div>
+            </a>
+          </li>
+        {% endfor %}
+
+      </ul>
+
+    </div>
+  </div>
+
+  <div class='four spacing'></div>
+</div>
