@@ -240,6 +240,22 @@ $oil           : #333333 !default;
 $jet           : #222222 !default;
 $black         : #000000 !default;
 
+// Inter/sections colours
+
+$yellow_01      : #fcd606; // Lightest yellow
+$yellow_02      : #edc31a; // Darker
+$yellow_03      : #d7b428; // Darkest
+$green_01       : #62d3bd; // Lightest green
+$green_02       : #41a491; // Darker
+$green_03       : #348c7b; // Darkest
+$grey_01        : #dadad9; // Light
+$grey_02        : #a5a5a5; // Darker
+$grey_03        : #929292; // Darker yet
+$grey_04        : #393939; // Darkest
+$ruby_01        : #f23b74; // Bright
+$ruby_02        : #b02752; // Darker
+$ruby_03        : #941d42; // Darkest
+
 // We use these as default colors throughout
 $primary-color: #008CBA !default;   // bondi-blue
 $secondary-color: #e7e7e7 !default; // white-lilac
@@ -249,9 +265,9 @@ $warning-color: #f08a24 !default;   // carrot
 $info-color: #a0d3e8 !default;      // cornflower
 
 // We use these to define default font stacks
-$font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !default;
+$font-family-sans-serif: "Montserrat", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !default;
 $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif !default;
-$font-family-monospace: Consolas, "Liberation Mono", Courier, monospace !default;
+$font-family-monospace: 'Source Code Pro', 'Consolas', 'Liberation Mono', Courier, monospace !default;
 
 // We use these to define default font weights
 $font-weight-normal: normal !default;
