@@ -6,13 +6,16 @@
   section_id: about
 - name: Symposium
   path: symposium.html
-  section_id: services
+  section_id: symposium
 - name: Events
   path: events.html
+  section_id: events
 - name: Exhibition
   path: exhibition.html
+  section_id: exhibition
 - name: Schedule & Location
   path: schedule-and-location.html
+  section_id: schedule
 - name: Contact
   path: contact.html
   section_id: contact
