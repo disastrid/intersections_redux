@@ -1112,72 +1112,7 @@ form input.error, form textarea.error {
   color: #333;
 }
 
-/*Footer */
-#footer {
-  background: #222;
-  color: #999;
-}
-#footer h1 {
-  margin-bottom: 25px;
-}
-#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
-  color: #eee;
-}
-#footer ul {
-  margin: 0;
-}
-#footer ul li {
-  list-style: none;
-  line-height: 1.875rem;
-}
-#footer ul a {
-  color: #999;
-}
-#footer ul a:hover {
-  color: #eee;
-}
-#footer ul.socials li {
-  display: inline-block;
-  margin-right: 5px;
-  margin-bottom: 8px;
-}
-#footer ul.socials i {
-  width: 40px;
-  height: 40px;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
-  border-radius: 20px;
-  background: #eee;
-  color: #333;
-  text-align: center;
-  font-size: 1.25rem;
-  line-height: 3rem;
-}
-#footer ul.socials a:hover i {
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  -webkit-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-  background: #F9CE06;
-}
-#footer input.email-address {
-  padding: 5px 15px;
-  height: 3.3rem;
-  background: #eee;
-}
 
-#footer.fullwidth p.copyright {
-  padding-left: 30px;
-  float: left;
-  font-size: 1.28571rem;
-}
-#footer.fullwidth ul.socials {
-  text-align: right;
-  padding-right: 20px;
-}
-#footer.fullwidth ul.socials li {
-  margin-right: 10px;
-}
 .modBarGraph .bars {
   margin: 0;
   list-style: none;
@@ -1834,7 +1769,8 @@ form input.error, form textarea.error {
   outline: none;
 }
 .slick-loading .slick-list {
-  background: #fff;
+  // background: #fff;
+  background: pink;
 }
 .slick-list.dragging {
   cursor: pointer;
@@ -1934,9 +1870,9 @@ form input.error, form textarea.error {
 
 .slick-prev:before, .slick-next:before {
   font-family: "DroidSans";
-  font-size: 20px;
+  font-size: 2em;
   line-height: 1;
-  color: white;
+  color: #222;
   opacity: 0.75;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -3285,8 +3221,6 @@ body {
 .modTeamMember ul i {
   width: 36px;
   height: 36px;
-  -moz-border-radius: 18px;
-  -webkit-border-radius: 18px;
   border-radius: 18px;
   background: #F9CE06;
   color: #fff;
@@ -3297,6 +3231,7 @@ body {
 .modTeamMember img {
   width: 100%;
 }
+
 .modTeamMember .overlay {
   opacity: 0;
   background-color: rgba(255, 255, 255, 0.9);
@@ -3475,7 +3410,7 @@ body {
   font-family: "DroidSans";
   font-size: 20px;
   line-height: 1;
-  color: white;
+  color: #222;
   opacity: 0.75;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -3826,4 +3761,9 @@ body {
   .modFullscreenSlider .fullscreen_slideshow .video_wrap {
     display: none;
   }
+}
+
+// Alignment of image on index page
+.row .index-page {
+  text-align: center;
 }
