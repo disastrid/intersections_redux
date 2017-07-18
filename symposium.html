@@ -4,7 +4,7 @@ title: Symposium
 section_id: symposium
 ---
 
-<div class='full parallax' style='background-image: url(images/@stock/about-us.jpg); color: #fff;'>
+<div class='full parallax' style='background-image: url(images/headers/20_1.jpg); color: #fff;'>
   <div class='row'>
     <div class='twelve columns'>
       {% include section-header.html title="The Symposium" color="#fff" tagline="" class="big" %}
@@ -16,7 +16,7 @@ section_id: symposium
 <div class='full'>
   <div class='row'>
     <div class='medium-12 columns'>
-      <h3>About the Symposium</h3>
+      <h2>About the Symposium</h2>
       <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
     </div>
@@ -29,7 +29,7 @@ section_id: symposium
 </div>
 
 
-<div class='full'>
+<!-- <div class='full'>
   <div class='row'>
   <h3>Our Speakers</h3>
     {% for member in site.data.members %}
@@ -59,11 +59,44 @@ section_id: symposium
       </div>
     {% endfor %}
   </div>
-</div>
+</div> -->
 
 
-<div class='full parallax' style='background: #f5f5f5'>
+<div class='full'>
   <div class='row'>
+  <div class='medium-12 columns'>
+    <h2>Keynote Speakers</h2>
+  
+    {% for speaker in site.data.speakers %}
+    <div class='row team-section'>
+    
+  
+      <div class='small-5 medium-3 columns people'>
+        <img class="avatar team-pic" alt="" src="{{ speaker.image }}" />
+      </div>
+
+      <div class='small-7 medium-9 columns'>
+        <h3 class='name'>{{speaker.name}}</h3>
+        <p class='pos'>{{speaker.position}}</p>
+        
+        <p class='bio'>{{speaker.bio}}</p>
+      
+        <ul class='socials'>
+          {% for social in speaker.socials %}
+          <li>
+            <a href='{{social.link}}'><i class='fa fa-{{social.icon}}'></i></a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    
+    </div>
+    {% endfor %}
+  </div> <!-- end row -->
+</div> <!-- end full -->
+
+<!-- <div class='full parallax' style='background: #f5f5f5'> -->
+<!--   <div class='row'>
     <div class='large-12 columns'>
       <p class='centered-text'>
         <i class='fa fa-quote-left' style='color: #F9CE06; font-size: 36px;'></i>
@@ -75,7 +108,7 @@ section_id: symposium
       {% include section-header.html title="What our clients say" %}
       <div class='spacing'></div>
     </div>
-  </div>
+  </div> -->
   <div class='row'>
     <div class='large-12 columns'>
       <div class='mod modTestimonials'>
