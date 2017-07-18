@@ -6,20 +6,30 @@ section_id: home
 
 
 <div class='full parallax' style='background-image: url(images/@stock/about-us.jpg); color: #fff;'>
-  <div class='row'>
+  <div class='row index_page'>
+      <img src='images/logo_landscape.png'>
     <div class='twelve columns'>
-      {% include section-header.html title="Inter/sections 2017" color="#fff" tagline="Politics and ethics in media and art technology" class="big" %}
+      {% include section-header.html title="September 3-8, 2017" color="#fff" tagline="" class="big" %}
     </div>
   </div>
   <div class='four spacing'></div>
 </div>
 
+<div class='full' style="background: #41a491;">
+  <div class='row' >
+  <h2 class='intro-text'>Theme 2017:</h2>
+  <h2 class='intro-text body'>Politics and ethics in media and art technology</h2>
+    <!-- <p style="size: 2.5em; color: white; padding: 10px;">One line about the thing in general.</p> -->
+</div>
+</div>
+
 <div class='full'>
   <div class='row'>
     <div class='medium-12 columns'>
-      <h3>This Year's Theme</h3>
-      <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
+      <!-- <h3>inter/sections 2017</h3> -->
+      <p class="header-line">Following the rise of unprecedented activism and political protests in the past year, Inter/sections 2017 explores how artists and technologists use different networks, databases, and systems to raise awareness of ethical and political issues around technologies.</p>
+      <p>Through a week-long programme of interactive artwork, we will engage with topics ranging from the ethics of data privacy to the political effects of social media. Free workshops and talks with artists and technology activists will question how current political systems impact evolving technologies and introduce ways that technology can subvert them.</p>
+      
     </div>
    <!--  <div class='medium-6 columns'>
       <h3>Our skills</h3>
@@ -28,7 +38,7 @@ section_id: home
           {% for skill in page.skills %}
             <li>
               <h4 style=''>
-                {{skill.title}}
+                {{skill.title}}large
                 <strong>{{skill.percentage}}%</strong>
               </h4>
               <p class='highlighted' data-percent='{{skill.percentage}}'></p>
@@ -40,8 +50,52 @@ section_id: home
   </div>
 </div>
 
+<div class='full front-page-section symposium'>
+  <div class='row'>
+    <div class="large-12 columns">
+  
+      <div class='row'>
+    <div class='twelve columns'>
+      {% include section-header.html title="Symposium" color="#fff" tagline="" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
 
 <div class='full'>
+  <div class='row'>
+    <div class='medium-6 columns'>
+      <h3>History of Inter/sections</h3>
+      <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
+    </div>
+    <div class='medium-6 columns'>
+      <h3>Video goes here</h3>
+      <p>LAlala 2016</p>
+    </div>
+  </div>
+    </div>
+</div>
+</div>
+
+<div class='full front-page-section events'>
+  <div class='row' >
+  <div class="large-12 columns">
+  <h2 style="text-align: center; size: 6em; color: white">Events</h2>
+    <p style="size: 2.5em; color: white; padding: 10px;">One line here.</p>
+    </div>
+</div>
+
+<div class='full front-page-section exhibition'>
+  <div class='row' >
+  <div class="large-12 columns">
+  <h2 style="text-align: center; size: 6em; color: white">Exhibition</h2>
+    <p style="size: 2.5em; color: white; padding: 10px;">One line here.</p>
+    </div>
+</div>
+
+
+<!-- <div class='full'>
   <div class='row'>
   <h3>Our symposium speakers</h3>
     {% for member in site.data.members %}
@@ -71,23 +125,23 @@ section_id: home
       </div>
     {% endfor %}
   </div>
-</div>
+</div> -->
 
 
 <div class='full parallax' style='background: #f5f5f5'>
-  <div class='row'>
+  <!-- <div class='row'>
     <div class='large-12 columns'>
       <p class='centered-text'>
         <i class='fa fa-quote-left' style='color: #F9CE06; font-size: 36px;'></i>
       </p>
     </div>
-  </div>
-  <div class='row'>
+  </div> -->
+ <!--  <div class='row'>
     <div class='large-12 columns'>
       {% include section-header.html title="What our clients say" %}
       <div class='spacing'></div>
     </div>
-  </div>
+  </div> -->
   <div class='row'>
     <div class='large-12 columns'>
       <div class='mod modTestimonials'>
