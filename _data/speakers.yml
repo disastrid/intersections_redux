@@ -1,0 +1,30 @@
+- image: images/@stock/member-1.jpg
+  name: Kate Bevan
+  position: Broadcaster and media critic
+  socials:
+    - link: http://twitter.com
+      icon: twitter
+    - link: http://facebook.com
+      icon: facebook
+  bio:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+- image: images/@stock/member-1.jpg
+  name: Dr. Stephen Minger
+  position: Genetics expert
+  socials:
+    - link: http://twitter.com
+      icon: twitter
+    - link: http://facebook.com
+      icon: facebook
+  bio:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+- image: images/@stock/member-1.jpg
+  name: Dr. Dan McQuillam
+  position: Social computing genius
+  socials:
+    - link: http://twitter.com
+      icon: twitter
+    - link: http://facebook.com
+      icon: facebook
+  bio:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
