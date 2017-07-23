@@ -1,20 +1,36 @@
 // These are the colours, as detailed in _global.scss (copied here for reference):
 
+// $yellow_-02      : #f7f4e8; // Lightest of the lightest yellow
+// $yellow_-01      : #f2eac9; // Lighter than Lightest yellow
 // $yellow_01      : #fcd606; // Lightest yellow
 // $yellow_02      : #edc31a; // Darker
 // $yellow_03      : #d7b428; // Darkest
+
+// $green_-02       : #e1f4f0; // Lightest of the lightest green
+// $green_-01       : #cbefe8; // Lighter than Lightest green
 // $green_01       : #62d3bd; // Lightest green
 // $green_02       : #41a491; // Darker
 // $green_03       : #348c7b; // Darkest
+
+// $greyDan_01        : #efeeee; // Lightest
+// $greyDan_02        : #e9e8e7; // Lighter
+// $greyDan_03        : #dadad9; // Light
+// $greyDan_04        : #cecece; // Dark
+
 // $grey_01        : #dadad9; // Light
 // $grey_02        : #a5a5a5; // Darker
 // $grey_03        : #929292; // Darker yet
 // $grey_04        : #393939; // Darkest
+
 // $ruby_01        : #f23b74; // Bright
 // $ruby_02        : #b02752; // Darker
 // $ruby_03        : #941d42; // Darkest
 
-
+// $blue_-02        : #e8f1f9; // Brightest blue
+// $blue_-01        : #d1e6f2; // Brighter blue
+// $blue_00        : #4094d3; // blue
+// $blue_01        : #2a72a8; // Darker blue
+// $blue_02        : #195c8c; // Darkest blue
 
 
 // HEADER
@@ -44,7 +60,24 @@ p.header-line {
 	font-size: 1.5em;
 	line-height: 1.8em;
 	font-weight: 400;
+	margin-bottom: 2rem;
 }
+
+p{
+	margin-bottom: 2.42rem;
+}
+
+.full{
+	padding: 80px 0 20px 0;
+}
+
+.medium-6.columns{
+	margin-bottom: 1.42rem;
+}
+.medium-12.columns{
+	margin-bottom: 1.42rem;
+}
+
 
 .top-bar-section {
 	&:hover {
@@ -60,15 +93,23 @@ p.header-line {
 }
 
 .button-link {
-	color: black;
-	background: pink;
-	padding: 20px 15px;
+	color: white;
+	background: $ruby_01;
+	padding: 15px 15px;
 	height: 2em;
+	// border-color: black;
 	margin-top:20px;
+	-moz-border-radius: 0.3rem;
+	-webkit-border-radius: 0.3rem;
+	border-radius: 0.3rem;
+
 	&:hover {
-		background: orange;
+		background: $blue_01;
+		color: white;
 	}
 }
+
+
 
 img.header-logo .shrink {
 
@@ -151,23 +192,26 @@ ul.socials {
 
 .front-page-section {
 	padding-top: 50px;
+	&.symposium {
+		background: $blue_00; //$yellow_-01;
+		color: black; 
+	}
 	&.events {
-		background: blue;
+		background: $green_01;
+		// color: black;
 	}
 	&.exhibition {
-		background: orange;
+		background: $ruby_01;
 	}
-	&.symposium {
-		background: red;
-	}
+	
 }
 
 // Overrides for footer section
 
 /*Footer */
 #footer {
-  // background: #222;
-  background: $yellow_02;
+  background: $green_01;
+  // background: $yellow_02;
   color: #999;
 
 	>h1 {
@@ -175,8 +219,9 @@ ul.socials {
 	}
 
 	> h1, h2, h3, h4, h5, h6 {
-  		color: #eee;
+  		color: $grey_04;
 	}
+	
 	> ul {
   		margin: 0;
 	}
@@ -244,9 +289,44 @@ ul.socials {
 
 // NAVIGATION AT TOP
 
-.top-bar-section > ul li a {
-	color: $ruby_02;
-	&.active {
-		color: purple;
+.top-bar-section > ul li {
+	> a
+	{
+		color: $grey_03;
+		
+		
 	}
+	> a:hover {
+			color: $yellow_02;
+		}
+	&.active{
+		color: $ruby_02;
+	}
+
+}
+
+// FOOTER
+
+.links > ul li  {
+	color: white;
+	a{
+		color: white;
+	}
+	
+	a:hover {
+		color: $blue_01;
+	}
+}
+
+// SCHEDULE PAGE
+
+.front-page-section.events{
+	background: $green_-01;
+}
+.front-page-section.location{
+	background: $yellow_-01;
+}
+
+.text-schedule{
+	color: $grey_04;
 }

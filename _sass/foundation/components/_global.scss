@@ -242,19 +242,41 @@ $black         : #000000 !default;
 
 // Inter/sections colours
 
+
+$yellow_-02      : #f7f4e8; // Lightest of the lightest yellow
+$yellow_-01      : #f2eac9; // Lighter than Lightest yellow
 $yellow_01      : #fcd606; // Lightest yellow
 $yellow_02      : #edc31a; // Darker
 $yellow_03      : #d7b428; // Darkest
+
+$green_-02       : #e1f4f0; // Lightest of the lightest green
+$green_-01       : #cbefe8; // Lighter than Lightest green
 $green_01       : #62d3bd; // Lightest green
 $green_02       : #41a491; // Darker
 $green_03       : #348c7b; // Darkest
+
+$greyDan_01        : #efeeee; // Lightest
+$greyDan_02        : #e9e8e7; // Lighter
+$greyDan_03        : #dadad9; // Light
+$greyDan_04        : #cecece; // Dark
+
 $grey_01        : #dadad9; // Light
 $grey_02        : #a5a5a5; // Darker
 $grey_03        : #929292; // Darker yet
 $grey_04        : #393939; // Darkest
+
+$ruby_-02        : #ede6e8; // Bright
+$ruby_-01        : #f2d6df; // Bright
 $ruby_01        : #f23b74; // Bright
 $ruby_02        : #b02752; // Darker
 $ruby_03        : #941d42; // Darkest
+
+$blue_-02        : #e8f1f9; // Brightest blue
+$blue_-01        : #d1e6f2; // Brighter blue
+$blue_00        : #4094d3; // blue
+$blue_01        : #2a72a8; // Darker blue
+$blue_02        : #195c8c; // Darkest blue
+
 
 // We use these as default colors throughout
 $primary-color: #008CBA !default;   // bondi-blue
