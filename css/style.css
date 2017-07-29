@@ -657,6 +657,13 @@ hr {
   background-size: cover;
   background-position: 50% 50%;
 }
+
+.full-front-page {
+  padding: 80px 0;
+  background-size: cover;
+  background-position: 50% 50%;  
+}
+
 .full.no-padding {
   padding: 0;
 }
