@@ -7,8 +7,11 @@ description: > # this means to ignore newlines until "baseurl:"
   academia and activists.
 # ATTENTION! To develop locally, comment line 10, uncomment line 11. 
 # Before pushing to Github, uncomment line 10, comment line 11.
-baseurl: "https://disastrid.github.io/intersections_redux/" 
-# baseurl: ""
+url: "https://disastrid.github.io/intersections_redux/" 
+# url: "localhost:4000"
+
+baseurl: ""
+
 twitter_username: intersections_io
 github_username:  jekyll
 
