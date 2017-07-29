@@ -10,7 +10,7 @@ description: > # this means to ignore newlines until "baseurl:"
 url: "https://disastrid.github.io/intersections_redux/" 
 # url: "localhost:4000"
 
-baseurl: ""
+baseurl: "https://disastrid.github.io/intersections_redux/"
 
 twitter_username: intersections_io
 github_username:  jekyll
