@@ -34,20 +34,20 @@
 
 
 // HEADER
-.top-bar-section {
-// Image:
-	> ul li a {
-		color: #b02752;
-		font-family: 'Source Code Pro' 700;
-		>:hover {
-			color: pink;
-			background: red;
-		}
-	}
-	> li:not(.has-form) a:not(.button):hover {
-		background: red;
-	}
-}
+// .top-bar-section {
+// // Image:
+// 	> ul li a {
+// 		color: #b02752;
+// 		font-family: 'Source Code Pro' 700;
+// 		>:hover {
+// 			color: pink;
+// 			background: red;
+// 		}
+// 	}
+// 	> li:not(.has-form) a:not(.button):hover {
+// 		background: red;
+// 	}
+// }
 
 img.header-logo  {
 		width: auto;
@@ -86,10 +86,8 @@ p{
 }
 
 .index_page {
-	& img {
-		margin: 0 auto;
-		background: pink;
-	}
+	text-align: center;
+	
 }
 
 .button-link {
@@ -289,21 +287,50 @@ ul.socials {
 
 // NAVIGATION AT TOP
 
-.top-bar-section > ul li {
-	> a
-	{
-		color: $grey_03;
-		
-		
-	}
-	> a:hover {
-			color: $yellow_02;
-		}
-	&.active{
-		color: $ruby_02;
-	}
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+		font-weight: 800;
+		color: $ruby_01;
+		background-color: transparent;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button):hover {
+	background: $white;
+	color: $ruby_02;
 
 }
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+	background: $white;
+	color: $ruby_01;
+}
+
+.contain-to-grid, .sticky {
+	// This makes the top logo grey when the full-size site is viewed, and colours it on scroll.
+	>nav.top-bar ul.title-area li.name h1 a img.header-logo {
+		filter: grayscale(1);
+		-webkit-filter: greyscale(1);
+	}
+	&.fixed {
+		>nav.top-bar ul.title-area li.name h1 a img.header-logo {
+			filter: grayscale(0);
+			-webkit-filter: greyscale(0);
+		}
+	}
+	// This bit makes the logo grey when the mobile menu is closed, adn colours it when the mobile menu is expanded.
+	>nav.top-bar {
+		>ul.title-area li.name h1 a img.header-logo {
+			filter: grayscale(1);
+			-webkit-filter: greyscale(1);
+		}
+		&.expanded {
+			>ul.title-area li.name h1 a img.header-logo {
+				filter: grayscale(0);
+				-webkit-filter: greyscale(0);
+			}	
+		}
+	}
+}
+
 
 // FOOTER
 
