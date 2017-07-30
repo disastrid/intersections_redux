@@ -13,7 +13,7 @@ url: "https://disastrid.github.io/intersections_redux/"
 baseurl: "https://disastrid.github.io/intersections_redux/"
 
 # UNCOMMENT THESE TO DEVELOP LOCALLY:
-# url: "localhost:4000"
+# url: "localhost:4000/"
 # baseurl: ""
 
 twitter_username: intersections_io
