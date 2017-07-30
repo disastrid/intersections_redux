@@ -71,6 +71,10 @@ p{
 	padding: 0 0 20px 0;
 }
 
+.index-header-text {
+	padding: 2em 0 0;
+}
+
 .main-page-header {
 	padding: 2em 0 20px 0;
 }
@@ -199,7 +203,7 @@ ul.socials {
 		color: black; 
 	}
 	&.events {
-		background: $green_01;
+		background: $yellow_01;
 		// color: black;
 	}
 	&.exhibition {
@@ -207,6 +211,12 @@ ul.socials {
 	}
 	
 }
+
+// INDEX HEADER
+
+// .index-header-text {
+// 	padding: 2em 0 0 0;
+// }
 
 // Overrides for footer section
 
@@ -360,7 +370,7 @@ div.footer-logo > a img {
 // SCHEDULE PAGE
 
 .front-page-section.events{
-	background: $green_-01;
+	background: $yellow_01;
 }
 .front-page-section.location{
 	background: $yellow_-01;

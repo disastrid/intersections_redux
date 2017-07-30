@@ -658,6 +658,10 @@ hr {
   background-position: 50% 50%;
 }
 
+.full.index-header-text {
+  padding: 4em 0 0;
+}
+
 .full-front-page {
   padding: 80px 0;
   background-size: cover;
