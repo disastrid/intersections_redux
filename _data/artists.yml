@@ -1,6 +1,6 @@
 - image: images/@stock/member-1.jpg
   name: Will Hurt
-  position: Artist
+  position: Computer artist
   socials:
     - link: http://willhurt.net
       icon: link
