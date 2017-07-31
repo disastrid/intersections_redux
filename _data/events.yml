@@ -5,35 +5,35 @@
   tags: ["family", "security", "data"]
   desc:
     Inter/sections hosts a Family Cryptoparty to highlight issues of privacy and security that affect all of us in our connected society. It aims to empower people from all ages and walks of life with the knowledge of how to manage their personal privacy and use encryption in a way that is relevant and useful to them. Featuring a make-your-own cypher Spy Corner!
-- image: crypto.png
+- image: exhibition.jpg
   name: Inter/sections Art Exhibition
   date: Sunday September 3 - Friday September 8
   time: All day
   tags: ["art", "family"]
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- image: crypto.png
+- image: willhurt.jpg
   name: Hands-on workshop with Will hurt
   date: Monday September 4
   time: 2-5pm
   tags: ["art", "discussion"]
   desc:
     A hands-on workshop for artists interested in working with technology (Monday 4 September), led by commissioned artist Will Hurt.
-- image: crypto.png
+- image: launch.jpg
   name: Exhibition launch
   date: Monday September 4
   time: 6-8pm
   tags: ["art", "family"]
   desc:
     Join the artists and organisers behind Inter/sections for refreshments to celebrate the launch of our exhibition of artwork on the theme of technology and ethics.
-- image: crypto.png
+- image: symposium.jpg
   name: Inter/sections Symposium
   date: Friday September 8
   time: All day
   tags: ["art", "ethics", "discussion"]
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
-- image: crypto.png
+- image: automation.jpg
   name: Work Ethics in the Age of Automation (Panel discussion)
   date: Friday September 8
   time: 5.30-6.30
