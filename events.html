@@ -2,58 +2,6 @@
 layout: default
 title: Events
 section_id: events
-works:
-  - image: images/@stock/work-1.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: family
-    desc: Design &amp; Development
-  - image: images/@stock/work-2.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: security-and-privacy
-    desc: Design &amp; Development
-  - image: images/@stock/work-3.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: family
-    desc: Design &amp; Development
-  - image: images/@stock/work-4.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: talks
-    desc: Design &amp; Development
-  - image: images/@stock/work-5.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: art family
-    desc: Design &amp; Development
-  - image: images/@stock/work-6.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: talks
-    desc: Design &amp; Development
-  - image: images/@stock/work-7.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: art
-    desc: Design &amp; Development
-  - image: images/@stock/work-8.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: ethics
-    desc: Design &amp; Development
-  - image: images/@stock/work-1.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: ethics
-    desc: Design &amp; Development
-  - image: images/@stock/work-2.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: talks
-    desc: Design &amp; Development
-  
 ---
 
 
@@ -69,56 +17,48 @@ works:
 
 <div class='full'>
   <div class='row'>
-    <div class='mod modGallery'>
-      <div class='gallery-nav'>
-        <ul>
-          <li class='current'>
-            <a data-cat='all' href='#'>All</a>
-          </li>
-          <li>
-            <a data-cat='security-and-privacy' href='#'>Security and Privacy</a>
-          </li>
-          <li>
-            <a data-cat='family' href='#'>Family Events</a>
-          </li>
-          <li>
-            <a data-cat='art' href='#'>Art</a>
-          </li>
-          <li>
-            <a data-cat='ethics' href='#'>Ethics</a>
-          </li>
-          <li>
-            <a data-cat='talks' href='#'>Talks</a>
-          </li>
-        </ul>
+    <div class='large-12 columns'>
+      <p class='header-line'>Inter/sections discusses this year's theme, Politics and Ethics in Media and Arts Technology, through a week-long series of events.</p>
+
+      <p>Find out what's going on each day on this page, or click the button below to download a daily schedule as a PDF.</p>
+
+      <a href="#" class="button-link">Download a schedule</a>
+    </div>
+  </div>
+</div>
+
+<div class="full">
+  
+ 
+  <div class="row">
+
+  <div class='medium-12 columns'>
+    {% for event in site.data.events %}
+    <div class='row events-section'>
+      <div class='small-5 medium-3 columns people'>
+        <img class="avatar team-pic" alt="" src="{{ site.url }}/images/events/{{ event.image }}" />
       </div>
 
-      <ul class='gallery large-block-grid-4 medium-block-grid-3 small-block-grid-2'>
-
-        {% for work in page.works %}
-          <li class="{{ work.klass }}">
-            <a href='{{ work.link_to }}'>
-              <img alt="" src="{{ work.image }}" />
-              <div class='overlay'>
-                <div class='thumb-info'>
-                  <h3>{{ work.title }}</h3>
-                  <p>{{ work.desc }}</p>
-                </div>
-                <div class='event-class' style="height: 10%; background-color: green">
-                  <h3>Family</h3>
-                </div>
-                <div class='event-class' style="height: 10%; background-color: red">
-                  <h3>Art</h3>
-                </div>
-              </div>
-            </a>
-          </li>
+      <div class='small-7 medium-9 columns'>
+        <h2 class='name'>{{event.name}}</h2>
+        <p class='pos'>{{event.date}}<br \>{{ event.time}}</p>
+        
+        <p class='bio'>{{event.desc}}</p>
+      
+        {% for tag in event.tags %}
+        <p class='event-tags {{ tag }}'>{{ tag }}</p>
         {% endfor %}
-
-      </ul>
+        
+      </div>
+    
+    </div>
+    {% endfor %}
 
     </div>
   </div>
 
+
   <div class='four spacing'></div>
-</div>
+
+  {% include our-supporters.html %}
+</div><!-- end full -->
