@@ -4,7 +4,7 @@
   time: 2-5pm
   tags: ["family", "security", "data"]
   desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+    Inter/sections hosts a Family Cryptoparty to highlight issues of privacy and security that affect all of us in our connected society. It aims to empower people from all ages and walks of life with the knowledge of how to manage their personal privacy and use encryption in a way that is relevant and useful to them. Featuring a make-your-own cypher Spy Corner!
 - image: crypto.png
   name: Inter/sections Art Exhibition
   date: Sunday September 3 - Friday September 8
@@ -18,14 +18,14 @@
   time: 2-5pm
   tags: ["art", "discussion"]
   desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+    A hands-on workshop for artists interested in working with technology (Monday 4 September), led by commissioned artist Will Hurt.
 - image: crypto.png
   name: Exhibition launch
   date: Monday September 4
-  time: 5-9pm
+  time: 6-8pm
   tags: ["art", "family"]
   desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+    Join the artists and organisers behind Inter/sections for refreshments to celebrate the launch of our exhibition of artwork on the theme of technology and ethics.
 - image: crypto.png
   name: Inter/sections Symposium
   date: Friday September 8
@@ -34,9 +34,9 @@
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
 - image: crypto.png
-  name: Art in the age of automation
+  name: Work Ethics in the Age of Automation (Panel discussion)
   date: Friday September 8
-  time: 4.30-5.30
+  time: 5.30-6.30
   tags: ["ethics", "discussion"]
   desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+    Automation is seen as the most important development in labour since the Industrial Revolution with futurologists predicting seismic shifts in the jobs market, but where does this leave the technology sector? This panel discussion will look at the changing nature of the sector, different models of working, and how this impacts on the individual. 
