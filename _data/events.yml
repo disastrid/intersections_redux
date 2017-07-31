@@ -1,0 +1,42 @@
+- image: crypto.png
+  name: Family CryptoParty
+  date: Sunday September 3
+  time: 2-5pm
+  tags: ["family", "security", "data"]
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+- image: crypto.png
+  name: Inter/sections Art Exhibition
+  date: Sunday September 3 - Friday September 8
+  time: All day
+  tags: ["art", "family"]
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+- image: crypto.png
+  name: Hands-on workshop with Will hurt
+  date: Monday September 4
+  time: 2-5pm
+  tags: ["art", "discussion"]
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+- image: crypto.png
+  name: Exhibition launch
+  date: Monday September 4
+  time: 5-9pm
+  tags: ["art", "family"]
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+- image: crypto.png
+  name: Inter/sections Symposium
+  date: Friday September 8
+  time: All day
+  tags: ["art", "ethics", "discussion"]
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+- image: crypto.png
+  name: Art in the age of automation
+  date: Friday September 8
+  time: 4.30-5.30
+  tags: ["ethics", "discussion"]
+  desc:
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
