@@ -1,30 +1,34 @@
 - image: images/@stock/member-1.jpg
   name: Kate Bevan
-  position: Broadcaster and media critic
+  position: Freelance writer, editor and broadcaster
   socials:
-    - link: http://twitter.com
+    - link: http://twitter.com/katebevan
       icon: twitter
-    - link: http://facebook.com
+    - link: https://www.facebook.com/katebevan
       icon: facebook
+    - link: https://www.youtube.com/user/mskatebevan
+      icon: youtube
   bio:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+    Kate specialises in technology and social media. In her articles she draws attention to social presence caused by social media, and the relationship between consumer and enterprise technology.
 - image: images/@stock/member-1.jpg
   name: Dr. Stephen Minger
-  position: Genetics expert
+  position: Expert in stem cell technology
   socials:
-    - link: http://twitter.com
-      icon: twitter
-    - link: http://facebook.com
-      icon: facebook
+    - link: http://www.ccrm.ca/StephenMinger
+      icon: link
+    - link: https://www.linkedin.com/in/stephenminger/
+      icon: linkedin
   bio:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+    Stephen is actively involved with the UK Department of Health and with the Minister for Public Health in the consultation with both Houses of Parliament that led to the passage of the Human Embryo Bill of 2009 and the inclusion of new forms of animal-human embryos within primary legislation.
 - image: images/@stock/member-1.jpg
-  name: Dr. Dan McQuillam
-  position: Social computing genius
+  name: Dr. Dan McQuillan
+  position: Lecturer in Creative & Social Computing at Goldsmiths, University of London 
   socials:
-    - link: http://twitter.com
+    - link: https://twitter.com/danmcquillan
       icon: twitter
-    - link: http://facebook.com
-      icon: facebook
+    - link: http://www.danmcquillan.io/
+      icon: link
+    - link: https://scholar.google.co.uk/citations?user=7e1W_LcAAAAJ&hl=en&oi=ao
+      icon: graduation-cap
   bio:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+     Before becoming an academic, Dan was Director of E-communications for Amnesty International, Head of Digital for Make Your Mark, and Head of Digital for Media for Development. Dan is the co-founder of Social Innovation Camp and the science & technical lead for the citizen science project Science for Change Kosovo.
