@@ -9,7 +9,7 @@ description: > # this means to ignore newlines until "baseurl:"
 # BEFORE PUSHING LIVE, comment local URLs and uncomment live URLs.
 
 # UNCOMMENT THESE BEFORE PUSHING TO LIVE REPO:
-url: "https://disastrid.github.io/intersections_redux/" 
+url: "https://disastrid.github.io/intersections_redux" 
 baseurl: "https://disastrid.github.io/intersections_redux/"
 
 # UNCOMMENT THESE TO DEVELOP LOCALLY:
