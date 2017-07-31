@@ -1,4 +1,4 @@
-- image: images/@stock/member-1.jpg
+- image: images/people/kate-bevan.jpg
   name: Kate Bevan
   position: Freelance writer, editor and broadcaster
   socials:
@@ -10,7 +10,7 @@
       icon: youtube
   bio:
     Kate specialises in technology and social media. In her articles she draws attention to social presence caused by social media, and the relationship between consumer and enterprise technology.
-- image: images/@stock/member-1.jpg
+- image: images/people/stephen-minger.jpg
   name: Dr. Stephen Minger
   position: Expert in stem cell technology
   socials:
@@ -20,7 +20,7 @@
       icon: linkedin
   bio:
     Stephen is actively involved with the UK Department of Health and with the Minister for Public Health in the consultation with both Houses of Parliament that led to the passage of the Human Embryo Bill of 2009 and the inclusion of new forms of animal-human embryos within primary legislation.
-- image: images/@stock/member-1.jpg
+- image: images/people/dan-mcquillan.jpg
   name: Dr. Dan McQuillan
   position: Lecturer in Creative & Social Computing at Goldsmiths, University of London 
   socials:
