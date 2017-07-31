@@ -413,26 +413,28 @@ div.footer-logo > a img {
 }
 
 .event-tags {
-	display: inline;
-	line-height: 1.4em;
-	padding: 0.2em 0.4em;
-	color: $white;
-	&.data {
-		background: blue;
-	}
-	&.family {
-		background: $green_01;
-	}
-	&.ethics {
-		background: $ruby_02;
-	}
-	&.art {
-		background: orange;
-	}
-	&.discussion {
-		background: purple;
-	}
-	&.security {
-		background: green;
+	> p {
+		display: inline;
+		line-height: 1.4em;
+		padding: 0.2em 0.4em;
+		color: $white;
+		&.data {
+			background: blue;
+		}
+		&.family {
+			background: $green_01;
+		}
+		&.ethics {
+			background: $ruby_02;
+		}
+		&.art {
+			background: orange;
+		}
+		&.discussion {
+			background: purple;
+		}
+		&.security {
+			background: green;
+		}
 	}
 }

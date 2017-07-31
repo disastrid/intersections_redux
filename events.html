@@ -45,9 +45,11 @@ section_id: events
         
         <p class='bio'>{{event.desc}}</p>
       
-        {% for tag in event.tags %}
-        <p class='event-tags {{ tag }}'>{{ tag }}</p>
-        {% endfor %}
+        <div class='event-tags'>
+          {% for tag in event.tags %}
+          <p class='{{ tag }}'>{{ tag }}</p>
+          {% endfor %}
+        </div>
         
       </div>
     
