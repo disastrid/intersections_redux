@@ -219,6 +219,11 @@ ul.socials {
 	
 }
 
+.event-header {
+	color: #333;
+	border-bottom: 8px solid $yellow_01;
+}
+
 // INDEX HEADER
 
 // .index-header-text {
@@ -399,4 +404,35 @@ div.footer-logo > a img {
 	align-items: stretch;
 	flex: 1;
 	// border: 1px solid red;
+}
+
+// EVENTS PAGE: TAGS
+
+.events-section {
+	padding: 1.2em 0;
+}
+
+.event-tags {
+	display: inline;
+	line-height: 1.4em;
+	padding: 0.2em 0.4em;
+	color: $white;
+	&.data {
+		background: blue;
+	}
+	&.family {
+		background: $green_01;
+	}
+	&.ethics {
+		background: $ruby_02;
+	}
+	&.art {
+		background: orange;
+	}
+	&.discussion {
+		background: purple;
+	}
+	&.security {
+		background: green;
+	}
 }
