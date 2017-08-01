@@ -109,7 +109,12 @@ p{
 	-webkit-border-radius: 0.3rem;
 	border-radius: 0.3rem;
 	&.register-now {
-		background: orange;
+		// This is the colour Eventbrite uses:
+		background: #f6682f;
+		&:hover {
+			// This is what Eventbrite uses on hover:
+			background: #b73a08;
+		}
 	}
 
 	&:hover {
