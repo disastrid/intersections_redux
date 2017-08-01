@@ -372,7 +372,15 @@ ul.socials {
 }
 
 div.footer-logo > a img {
-	width: 65%; 
+	@media #{$small-up} {
+		max-width: 40%;
+	}
+	@media #{$medium-up} {
+		max-width: 40%;
+	}
+	@media #{$large-up} {
+		max-width: 55%;
+	}
 	height: auto; 
 	opacity: .5; 
 	-webkit-opacity: .5;
@@ -401,11 +409,19 @@ div.footer-logo > a img {
 // HANDLER FOR IFRMAE
 
 .iframe-flex {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
+	@media #{$small-up} {
+		display: block;
+	}
+	@media #{$medium-up} {
+		display: block;
+	}
+	@media #{$large-up} {
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+	}
 }
 
 .iframe-content {
