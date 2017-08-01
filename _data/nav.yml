@@ -13,9 +13,9 @@
 - name: Exhibition
   path: exhibition.html
   section_id: exhibition
-- name: Schedule & Location
-  path: schedule-and-location.html
-  section_id: schedule
+- name: Location
+  path: location.html
+  section_id: location
 # - name: Contact
 #   path: contact.html
 #   section_id: contact
