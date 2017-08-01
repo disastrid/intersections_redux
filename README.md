@@ -7,12 +7,14 @@ Jekyll implementation of the Inter/sections site
 2. Make sure Jekyll and Bundler are installed.
 Jekyll: `$ gem install jekyll`
 Bundler: `$ gem install bundler`
+GH Pages: `$ gem install github-pages`
+(Error messages are usually for outdated versions of Ruby and will tell you how to update it.)
 3. Navigate to the root of the repo.
 4. Type this:
 `$ jekyll serve`
 
 Watch the command line as it compiles the site and starts the server.
-This will start the site at localhost:4000 when it's ready.
+This will start the site at `localhost:4000` when it's ready.
 
 # The structure:
 
@@ -21,11 +23,11 @@ This will start the site at localhost:4000 when it's ready.
 Each link across the top has a partner html file in the root of the repo. These are currently:
 
 `index.html
+about.html
 exhibition.html
 syposium.html
 events.html
-contact.html
-where-and-when.html`
+location.html`
 
 These are the pages that are served when each of the links at the top are clicked.
 
@@ -39,18 +41,19 @@ Supporters - This is the link to supporter images for display, and a URL for eac
 Speakers - This will be the info about our Symposium speakers
 Artists - This will be the profile of our artists
 Nav - This is the navigation links across the top.
+Events - The information for the events listed on the page. Will soon link to associated posts for each one.
 
 ### How to use stuff in the data file
 
 You can make new data structures for whatever you want. To use them, you will probably want to loop over every item in the file, which you do like this:
 
-`{% for member in site.data.members %}`
+`{% for event in site.data.events %}`
 
-This tells Jekyll "Inside the _data file at the root of the site, there's a file called members. Go into that, and look at each item (which I'll refer to as 'member')."
+This tells Jekyll "Inside the _data file at the root of the site, there's a yml file called events. Go into that, and look at each item (which I'll refer to as 'event')."
 
-Then, you can manipulate data inside each item, for example by grabbing their picture:
+Then, you can manipulate data inside each item, for example by grabbing the associated picture:
 
-`<img src="{{member.avatar}}">`
+`<img src="{{event.image}}">`
 
 Notice that you usually have to put the quote marks around the info yourself to make HTML happy.
 
@@ -81,7 +84,3 @@ If you make changes and they're not reflected, check the command line - often it
 ## To Do
 
 - Make this site a clear and accurate reflection of Inter/sections that is simple to navigate.
-- Make sure it looks shit hot on mobile and web (especially mobile!!)
-- When we're done with this, push it to the Inter/sections repo
-- Get Victor to change the CNAME record of intersections.io so it points towards the final resting place of the site
-- $$ PROFIT $$
