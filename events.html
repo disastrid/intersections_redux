@@ -41,7 +41,13 @@ section_id: events
 
       <div class='small-7 medium-9 columns'>
         <h2 class='name'>{{event.name}}</h2>
+        <div class='event-tags'>
+          {% for tag in event.tags %}
+          <p class='{{ tag }}'>{{ tag }}</p>
+          {% endfor %}
+        </div>
         <p class='pos'>{{event.date}}<br \>{{ event.time}}</p>
+
         
         <p class='bio'>{{event.desc}}</p>
       
@@ -49,11 +55,6 @@ section_id: events
         <div class="button-wrapper"><a href="{{ event.button-url }}" class="button-link register-now">{{ event.button-text }}</a></div>
         {% endif %}
         
-        <div class='event-tags'>
-          {% for tag in event.tags %}
-          <p class='{{ tag }}'>{{ tag }}</p>
-          {% endfor %}
-        </div>
 
       </div>
     
