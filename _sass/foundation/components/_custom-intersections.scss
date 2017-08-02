@@ -98,6 +98,10 @@ p{
 	
 }
 
+.button-wrapper {
+	margin: 1.8em 0;
+}
+
 .button-link {
 	color: white;
 	background: $ruby_01;
@@ -475,6 +479,9 @@ div.footer-logo > a img {
 		}
 		&.security {
 			background: green;
+		}
+		&.workshop {
+			background: #ea4858;
 		}
 	}
 }

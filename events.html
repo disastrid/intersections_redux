@@ -22,7 +22,7 @@ section_id: events
 
       <p>Find out what's going on each day on this page, or click the button below to download a daily schedule as a PDF.</p>
 
-      <a href="#" class="button-link">Download a programme</a>
+      <a href="#" class="button-link">Download a programme  </a>
     </div>
   </div>
 </div>
@@ -45,12 +45,16 @@ section_id: events
         
         <p class='bio'>{{event.desc}}</p>
       
+        {% if event.button-url %}
+        <div class="button-wrapper"><a href="{{ event.button-url }}" class="button-link register-now">{{ event.button-text }}</a></div>
+        {% endif %}
+        
         <div class='event-tags'>
           {% for tag in event.tags %}
           <p class='{{ tag }}'>{{ tag }}</p>
           {% endfor %}
         </div>
-        
+
       </div>
     
     </div>
