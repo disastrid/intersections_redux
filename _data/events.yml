@@ -3,7 +3,7 @@
   date: Sunday September 3
   time: 2-5pm
   tags: ["family", "security", "data", "workshop"]
-  button-url: "#"
+  button-url: "https://www.eventbrite.co.uk/e/intersections-family-cryptoparty-tickets-36745598073"
   button-text: Reserve your free place
   desc:
     Inter/sections hosts a Family Cryptoparty to highlight issues of privacy and security that affect all of us in our connected society. It aims to empower people from all ages and walks of life with the knowledge of how to manage their personal privacy and use encryption in a way that is relevant and useful to them. Featuring a make-your-own cypher Spy Corner!
@@ -19,7 +19,7 @@
   date: Monday September 4
   time: 2-5pm
   tags: ["art", "discussion", "workshop"]
-  button-url: "#"
+  button-url: "https://www.eventbrite.co.uk/e/intersections-artists-workshop-tickets-36745714421"
   button-text: Reserve your free place
   desc:
     A hands-on workshop for artists interested in working with technology (Monday 4 September), led by commissioned artist Will Hurt.
@@ -35,7 +35,7 @@
   date: Friday September 8
   time: All day
   tags: ["art", "ethics", "discussion"]
-  button-url: "#"
+  button-url: "https://www.eventbrite.co.uk/e/intersections-symposium-tickets-35385982426"
   button-text: Reserve your free Symposium ticket
   desc:
     Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
@@ -44,7 +44,7 @@
   date: Friday September 8
   time: 3-4.30pm
   tags: ["art", "ethics", "discussion", "workshop"]
-  button-url: "#"
+  button-url: "https://www.eventbrite.co.uk/e/intersections-symposium-tickets-35385982426"
   button-text: Reserve your free Symposium ticket
   desc: As part of this year’s Inter/sections Symposium, The Culture Capital Exchange is hosting a free workshop that sets out to unpick some timely and also challenging and complex questions around how the arts are using digital technologies now and the wider political, social, ethical and indeed economic contexts.
 - image: robot.jpg
@@ -52,7 +52,7 @@
   date: Friday September 8
   time: 5.30-6.30pm
   tags: ["ethics", "discussion"]
-  button-url: "#"
+  button-url: "https://www.eventbrite.co.uk/e/intersections-symposium-tickets-35385982426"
   button-text: Reserve your free Symposium ticket   
   desc:
     Automation is seen as the most important development in labour since the Industrial Revolution with futurologists predicting seismic shifts in the jobs market, but where does this leave the technology sector? This panel discussion will look at the changing nature of the sector, different models of working, and how this impacts on the individual. 
