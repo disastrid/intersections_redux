@@ -8,3 +8,14 @@
       icon: twitter
   bio:
     Computer Artist questioning the relationship between art and curation through generated abstracted layouts of physical space.
+- image: images/people/yosuke.jpg
+  name: Yosuke Ushigome
+  position: Designer
+  socials:
+    - link: https://www.twitter.com/ushi_
+      icon: twitter
+    - link: http://www.takram.com
+      icon: link
+    - link: http://www.yosukeushigo.me
+      icon: link
+  bio: Yosuke is a co-founder and designer at <a href="http://www.takram.com">Takram London</a>. His primary interests are centred around emerging technologies. He probes the future vision that they promise, reveals the cultural and political mechanisms behind it, and democratises the insights and findings through making physical and digital prototypes. By doing so, he aims to facilitate in-depth understanding of the implication of emerging technologies and encourage better-informed decision-making on our future.

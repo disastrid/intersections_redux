@@ -16,8 +16,9 @@ section_id: exhibition
 <div class='full'>
   <div class='row' style="display: flex">
     <div class='medium-6 columns'>
-      <p>Accompanying the events of the week is our curated exhibition. Approaching the theme of Ethics and Politics in Media and Arts Technology from a more experimental and artistic perspective, we showcase work of internationally renowned designers and artists alongside our own PhD students' mixed media artworks. </p>
-      <p>We also present work specially commissioned for Inter/sections. Will Hurt's questioning of the relationship between artists and curators and Yosuke Ushigome's exploring of the concept behind shared economies are just two takes in the discourse of what role technology can play in a modern society.</p>
+      <p>Approaching the theme of Ethics and Politics in Media and Arts Technology from a more experimental and artistic perspective, our curated exhibition showcases the work of internationally renowned designers and artists alongside our own PhD students' mixed media artworks. </p>
+      <p>We also present work by Will Hurt and Yosuke Ushigome. Will's artwork, commissioned for Inter/sections, draws visitors' attention to built environments, while Yosuke's invites visitors to explore shared economies.</p>
+      <p></p>
 
     </div>
     <div class='medium-6 columns iframe-content'>
@@ -30,7 +31,7 @@ section_id: exhibition
 <div class='full'>
   <div class='row'>
   <div class='medium-12 columns'>
-    <h2>Commissioned artists</h2>
+    <h2>Invited practitioners</h2>
   
     {% for artist in site.data.artists %}
     <div class='row team-section'>
@@ -57,43 +58,10 @@ section_id: exhibition
     
     </div>
     {% endfor %}
-  </div> <!-- end row -->
-</div> <!-- end full -->
+  </div> 
+</div> <!-- end row -->
 
-<!-- <div class='full parallax' style='background: #f5f5f5'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <p class='centered-text'>
-        <i class='fa fa-quote-left' style='color: #F9CE06; font-size: 36px;'></i>
-      </p>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="What our clients say" %}
-      <div class='spacing'></div>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <div class='mod modTestimonials'>
-        <div class='row'>
-          <div class='small-12 columns'>
-            <div class='items centered-text'>
-              {% for testimonial in page.testimonials %}
-                <div class='item'>
-                  <p class='quote'>"{{testimonial.quote}}"</p>
-                  <p class='author'>- {{testimonial.author}}</p>
-                  <div class='two spacing'></div>
-                </div>
-              {% endfor %}
-            </div>
-          </div>
-          <div class='spacing'></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
- -->
+<div class='two spacing'></div>
+
 {% include our-supporters.html %}
+</div> <!-- end full -->
