@@ -10,7 +10,7 @@ description: > # this means to ignore newlines until "baseurl:"
 
 # UNCOMMENT THESE BEFORE PUSHING TO LIVE REPO:
 url: "https://mat-intersections.github.io/intersections_redux" 
-baseurl: ""
+baseurl: "https://mat-intersections.github.io/intersections_redux/"
 
 # UNCOMMENT THESE TO DEVELOP LOCALLY:
 # url: "localhost:4000/"
