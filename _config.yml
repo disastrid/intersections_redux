@@ -17,7 +17,7 @@ baseurl: "https://intersections.io/"
 # baseurl: ""
 
 twitter_username: intersections_io
-github_username:  jekyll
+github_username:  mat-intersections
 
 # Build settings
 markdown: kramdown
