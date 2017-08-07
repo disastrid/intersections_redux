@@ -9,15 +9,15 @@ description: > # this means to ignore newlines until "baseurl:"
 # BEFORE PUSHING LIVE, comment local URLs and uncomment live URLs.
 
 # UNCOMMENT THESE BEFORE PUSHING TO LIVE REPO:
-url: "https://intersections.io" 
-baseurl: "https://intersections.io/"
+url: "https://mat-intersections.github.io/intersections_redux" 
+baseurl: ""
 
 # UNCOMMENT THESE TO DEVELOP LOCALLY:
 # url: "localhost:4000/"
 # baseurl: ""
 
 twitter_username: intersections_io
-github_username:  mat-intersections
+github_username:  jekyll
 
 # Build settings
 markdown: kramdown
