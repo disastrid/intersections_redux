@@ -13,7 +13,7 @@
   time: 10am - 6pm (later for special events)
   tags: ["art", "family"]
   desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+    All week long there is a curated exhibition featuring work by MAT students and invited artists, as well as a special commission of new work by computer artist Will Hurt.
 - image: willhurt.jpg
   name: Hands-on workshop with Will hurt
   date: Monday September 4
@@ -38,7 +38,7 @@
   button-url: "https://www.eventbrite.co.uk/e/intersections-symposium-tickets-35385982426"
   button-text: Reserve your free Symposium ticket
   desc:
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetue.
+    Inter/sections culminates in a Symposium on Friday. It is a day-long event of talks, conversation, and thought provoking discussion. It features prominent speakers and thinkers from art and technology, academia and industry.
 - image: listen.jpg
   name: Technology, Ethics and the Arts Now
   date: Friday September 8
