@@ -16,6 +16,8 @@ GH Pages: `$ gem install github-pages`
 Watch the command line as it compiles the site and starts the server.
 This will start the site at `localhost:4000` when it's ready.
 
+Ask Astrid or Tom for help if things are not working properly.
+
 # The structure:
 
 ## The bones
@@ -84,3 +86,7 @@ If you make changes and they're not reflected, check the command line - often it
 ## To Do
 
 - Make this site a clear and accurate reflection of Inter/sections that is simple to navigate.
+
+# Hosting
+
+The site is hosted on Github pages. The domain registrar is GoDaddy, and the DNS and SSL certificate are managed by Cloudflare. Contact Tom if you need more details about these.
