@@ -3775,7 +3775,12 @@ body {
   }
 }
 
-// Alignment of image on index page
+/* Alignment of image on index page */
 .row .index-page {
   text-align: center;
+}
+
+/* Add top and bottom margins to bios */
+.row .team-section {
+  margin: 3em 0em 3em 0em;
 }

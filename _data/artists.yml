@@ -19,3 +19,21 @@
     - link: http://www.yosukeushigo.me
       icon: link
   bio: Yosuke is a co-founder and designer at <a href="http://www.takram.com">Takram London</a>. His primary interests are centred around emerging technologies. He probes the future vision that they promise, reveals the cultural and political mechanisms behind it, and democratises the insights and findings through making physical and digital prototypes. By doing so, he aims to facilitate in-depth understanding of the implication of emerging technologies and encourage better-informed decision-making on our future.
+- image: images/people/anna-ridler.jpg
+  name: Anna Ridler
+  socials:
+    - link: http://annaridler.com/wikileaks-a-love-story
+      icon: link
+  bio: Anna is an artist and researcher whose practice usually involves working with existing collections of information or data to create new and unusual narratives.
+- image: images/people/jelka-kretzschmar.jpg
+  name: Jelka Kretzschmar
+  socials:
+    - link: http://jelkajelka.com/woodofvoices.html
+      icon: link
+  bio: Jelka is a graphic and experience designer and sonic activist with a strong interest in linguistics and cultural diversity.
+- image: images/people/tim-sargent.jpg
+  name: Tim Sargent
+  socials:
+    - link: http://www.timsargent.co.uk/
+      icon: link
+  bio: Tim is an artist and designer, making projects to explore, question and push the possibilities of his and others lives. Tim graduated from the Royal Collage of Art in 2013 having studied Design Interactions.
