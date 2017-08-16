@@ -1,15 +1,3 @@
-- image: images/people/kate-bevan.jpg
-  name: Kate Bevan
-  position: Freelance writer, editor and broadcaster
-  socials:
-    - link: http://twitter.com/katebevan
-      icon: twitter
-    - link: https://www.facebook.com/katebevan
-      icon: facebook
-    - link: https://www.youtube.com/user/mskatebevan
-      icon: youtube
-  bio:
-    Kate specialises in technology and social media. In her articles she draws attention to social presence caused by social media, and the relationship between consumer and enterprise technology.
 - image: images/people/stephen-minger.jpg
   name: Dr. Stephen Minger
   position: Expert in stem cell technology
